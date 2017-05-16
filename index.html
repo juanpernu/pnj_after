@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Pnj's After</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+<container>
+    <div class="blackout text-center">
+        <h4>Only for devices babe ;)</h4>
+        <p>Ponji</p>
+    </div>
+    <div class="text-left padding-box">
+        <h1>Nipon's <br> After <br> Office</h1>
+        <div class="spacer"></div>
+        <div class="data">
+            <p>¿Donde?</p>
+            <a href="https://www.google.com.ar/maps/place/Beer+Patagonia+-+Refugio+Don+Anselmo/@-34.6232188,-58.3754788,16z/data=!4m17!1m11!4m10!1m3!2m2!1d-58.3715306!2d-34.6259292!1m5!1m1!1s0x95bccb2cb1708ad7:0xc76603010cccf5b6!2m2!1d-58.372215!2d-34.62044!3m4!1s0x95bccb2cb1708ad7:0xc76603010cccf5b6!8m2!3d-34.62044!4d-58.372215" target="_self"><small>Patagonia Beer Bar</small></a>
+            <p>¿Cuando?</p>
+            <small>Miércoles 24 de Mayo</small>
+        </div>
+        <p class="question">¿Vas a venir venir?</p>
+        <div class="confirm">
+          <button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-success">Si</button>
+          <a href="http://holdinholden.com/wp-content/uploads/2015/05/boring.jpg">
+              <p>No, no me interesa</p>
+          </a>
+        </div>
+        <div id="invite-list">
+          <button type="button" class="btn btn-primary">Mirá quienes vienen</button>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              </div>
+              <div class="modal-body">
+                <div id="form-messages"></div>
+                <form action="POST" id="ajax-contact" class="text-left" action="https://formspree.io/juanpernu.gcba@gmail.com">
+                    <div class="field">
+                        <label for="name">Decime tu nombre</label>
+                        <input type="text" name="name" required name="nombre" placeholder="Tu nombre acá">
+                    </div>
+                    <div class="field">
+                        <label for="secretary">¿De qué subsecretaría?</label>
+                        <input type="text" name="secretary" required name="subsecretaria" placeholder="Subsecretaría">
+                    </div>
+                    <div class="label">
+                        <label for="direction">¿Y qué dirección?</label>
+                        <input type="text" name="direction" required name="DG" placeholder="Dirección general">
+                    </div>
+                    <input type="hidden" name="_next" value="index.html" />
+                    <input type="hidden" name="_subject" value="Nipon's After" />
+                </form>
+              </div>
+              <div class="modal-footer">
+                <input type="submit" value="Estamos ready" class="btn btn-primary">
+                <!-- <button id="save" type="submit" class="btn btn-primary">Estamos ready</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</container>
+
+
+<!-- SCRIPTS -->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="js/script.js" type="text/javascript" charset="utf-8" async defer></script>
+
+</body>
+</html>
