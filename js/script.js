@@ -3,7 +3,8 @@ var inviteList = $('#invite-list button');
 var saveButton = $('#save');
 
 if (screen > 420) {
-    $('.blackout').css('display', 'block')
+	$('.blackout').css('display', 'block');
+	$('.text-left .padding-box').css('display', 'none');
 }
 
 saveButton.click(function () {
