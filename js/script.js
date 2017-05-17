@@ -18,6 +18,7 @@ saveButton.click(function () {
 // LISTA DE CONFIRMADOS!
 var invitedPep = {
 	"invitados": [
+		{ "name":"Puchu", "subsecretary":"SSCI", "direction":"GEDI"  },
 		{ "name":"Florchi", "subsecretary":"SSCI", "direction":"GEDI"  },
 		{ "name":"Ernesto", "subsecretary":"Ciudad Inteligente", "direction":"GEDI"  },
 		{ "name":"Ponja", "subsecretary":"Ciudad Inteligente", "direction":"GEDI"  }
