@@ -37,7 +37,7 @@ a p {
 }
 
 .question {
-	padding-top: 15%;
+	padding-top: 10%;
 	font-size: 1.3em;
 	color: #a4a4a4;
 	font-weight: 100;
@@ -150,6 +150,10 @@ input:-moz-placeholder { /* Firefox 18- */
 	margin-left: 10px;
 }
 
+a.calendar{
+	font-size: .8em;
+	color: #36D1DC;
+}
 
 @media screen and (min-device-width: 700px) { 
   	.blackout h4 {
