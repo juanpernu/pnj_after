@@ -18,6 +18,7 @@ saveButton.click(function () {
 // LISTA DE CONFIRMADOS!
 var invitedPep = {
 	"invitados": [
+		{ "name":"Melina", "subsecretary":"SSCI", "direction":"Comunicacion"  },
 		{ "name":"Diego Guillen", "subsecretary":"SSCI", "direction":"GEDI"  },
 		{ "name":"Nacho Pueta", "subsecretary":"SSCI", "direction":"DGCyT"  },
 		{ "name":"Lore", "subsecretary":"SSCI", "direction":"DGCyT"  },
