@@ -18,6 +18,10 @@ saveButton.click(function () {
 // LISTA DE CONFIRMADOS!
 var invitedPep = {
 	"invitados": [
+		{ "name":"Nacho Pueta", "subsecretary":"SSCI", "direction":"DGCyT"  },
+		{ "name":"Lore", "subsecretary":"SSCI", "direction":"DGCyT"  },
+		{ "name":"Pablo Icardi", "subsecretary":"SSCI", "direction":"GEDI"  },
+		{ "name":"Tomi Casagrande", "subsecretary":"SSCI", "direction":"GEDI"  },
 		{ "name":"Pitu", "subsecretary":"SSCI", "direction":"GEDI"  },
 		{ "name":"Yorland", "subsecretary":"SSCI", "direction":"GEDI"  },
 		{ "name":"Sol", "subsecretary":"Economica", "direction":"PAPP"  },
