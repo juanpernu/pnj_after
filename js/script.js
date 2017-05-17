@@ -18,6 +18,7 @@ saveButton.click(function () {
 // LISTA DE CONFIRMADOS!
 var invitedPep = {
 	"invitados": [
+		{ "name":"Pitu", "subsecretary":"SSCI", "direction":"GEDI"  },
 		{ "name":"Yorland", "subsecretary":"SSCI", "direction":"GEDI"  },
 		{ "name":"Sol", "subsecretary":"Economica", "direction":"PAPP"  },
 		{ "name":"Puchu", "subsecretary":"SSCI", "direction":"GEDI"  },
