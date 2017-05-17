@@ -18,10 +18,8 @@ saveButton.click(function () {
 // LISTA DE CONFIRMADOS!
 var invitedPep = {
 	"invitados": [
-		{ "name":"Ponja", "subsecretary":"Ciudad Inteligente", "direction":"DGGEDI"  },
-		{ "name":"Lucho", "subsecretary":"Ciudad Inteligente", "direction":"DGGEDI"  },
-		{ "name":"Sol", "subsecretary":"Ciudad Inteligente", "direction":"DGGEDI"  },
-		{ "name":"Puchu", "subsecretary":"Ciudad Inteligente", "direction":"DGGEDI"  }
+		{ "name":"Ernesto", "subsecretary":"Ciudad Inteligente", "direction":"DGGEDI"  },
+		{ "name":"Ponja", "subsecretary":"Ciudad Inteligente", "direction":"DGGEDI"  }
 	]
 }
 
