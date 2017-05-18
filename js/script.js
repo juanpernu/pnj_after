@@ -19,6 +19,9 @@ saveButton.click(function () {
 // LISTA DE CONFIRMADOS!
 var invitedPep = {
 	"invitados": [
+		{ "name":"Angie Giavarini", "subsecretary":"Desarrollo económico", "direction":"Inversiones"  },
+		{ "name":"Juan Puig", "subsecretary":"SSCI", "direction":"GEDI"  },
+		{ "name":"Nico", "subsecretary":"SSCI", "direction":"GEDI"  },
 		{ "name":"Ifi", "subsecretary":"SSCI", "direction":"GEDI"  },
 		{ "name":"Guido", "subsecretary":"SSCI", "direction":"GEDI"  },
 		{ "name":"Melina", "subsecretary":"SSCI", "direction":"Comunicacion"  },
