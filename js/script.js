@@ -19,6 +19,8 @@ saveButton.click(function () {
 // LISTA DE CONFIRMADOS!
 var invitedPep = {
 	"invitados": [
+		{ "name":"Julieta", "subsecretary":"Comunicacion", "direction":"Comunicacion"  },
+		{ "name":"Dolores", "subsecretary":"SSCI", "direction":"SSICI"  },
 		{ "name":"Romina", "subsecretary":"SSCI", "direction":"SSICI"  },
 		{ "name":"Lucrecia", "subsecretary":"SSCI", "direction":"SSICI"  },
 		{ "name":"Mili Tachella", "subsecretary":"SSCI", "direction":"Comunicación"  },
