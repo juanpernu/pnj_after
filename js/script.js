@@ -19,6 +19,7 @@ saveButton.click(function () {
 // LISTA DE CONFIRMADOS!
 var invitedPep = {
 	"invitados": [
+		{ "name":"Francisco", "subsecretary":"DE", "direction":"Inversiones"  },
 		{ "name":"Julieta", "subsecretary":"Comunicacion", "direction":"Comunicacion"  },
 		{ "name":"Dolores", "subsecretary":"SSCI", "direction":"SSICI"  },
 		{ "name":"Romina", "subsecretary":"SSCI", "direction":"SSICI"  },
