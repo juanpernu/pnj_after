@@ -19,6 +19,7 @@ saveButton.click(function () {
 // LISTA DE CONFIRMADOS!
 var invitedPep = {
 	"invitados": [
+		{ "name":"Clara", "subsecretary":"SSCI", "direction":"DGCyT"  },		
 		{ "name":"Angie Giavarini", "subsecretary":"DE", "direction":"Inversiones"  },
 		{ "name":"Juan Puig", "subsecretary":"SSCI", "direction":"GEDI"  },
 		{ "name":"Nico", "subsecretary":"SSCI", "direction":"GEDI"  },
