@@ -19,6 +19,7 @@ saveButton.click(function () {
 // LISTA DE CONFIRMADOS!
 var invitedPep = {
 	"invitados": [
+		{ "name":"Mike", "subsecretary":"SSCI", "direction":"GEDI"  },
 		{ "name":"Mariana", "subsecretary":"SECPECG", "direction":"-"  },
 		{ "name":"Alejo", "subsecretary":"DE", "direction":"Inversiones"  },	
 		{ "name":"Manu", "subsecretary":"SSCI", "direction":"DGCYT"  },	
